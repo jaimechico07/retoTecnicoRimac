@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../../components/Header";
-import Step from "../planes/sections/step";
+import Step from "../planes/sections/Step";
 import { useAppStore } from "../../store/useUserStore";
 import { useNavigate } from "react-router-dom";
 import { IoIosArrowDropleft } from "react-icons/io";
