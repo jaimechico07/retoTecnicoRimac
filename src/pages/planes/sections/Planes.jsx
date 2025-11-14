@@ -2,14 +2,13 @@ import React, { useState } from "react";
 import { IoCheckmark } from "react-icons/io5";
 import { TbPointFilled } from "react-icons/tb";
 import { useNavigate } from "react-router-dom";
-import { useAppStore } from "../../../store/useUserStore"; // Cambiado el nombre
+import { useAppStore } from "../../../store/useUserStore";
 import { IoIosArrowDropleft } from "react-icons/io";
 
 const Planes = () => {
   const [seleccion, setSeleccion] = useState(null);
   const navigate = useNavigate();
 
-  // Usar el store de Zustand
   const {
     user,
     planes,
@@ -48,7 +47,6 @@ const Planes = () => {
     setSeleccion(id);
     setSeleccionPlan(id);
 
-    // Cargar planes si es la primera vez
     if (planes.length === 0) {
       await cargarPlanes();
     }

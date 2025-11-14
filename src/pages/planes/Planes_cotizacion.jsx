@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import Planes from "./sections/planes";
+
 import Header from "../../components/Header";
-import Step from "./sections/step";
+import Step from "./sections/Step";
+import Planes from "./sections/Planes";
 
 const Planes_cotizacion = () => {
   const [stepActual, setStepActual] = useState(1);
