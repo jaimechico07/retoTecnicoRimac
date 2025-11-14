@@ -17,7 +17,7 @@ const Step = ({ stepActual }) => {
           Planes y coberturas
         </p>
       </div>
-      <img src="../../../../public/assets/line.png" className=" w-fit" alt="" />
+      <img src="./assets/line.png" className=" w-fit" alt="" />
 
       {/* Step 2 */}
       <div className="flex gap-2">

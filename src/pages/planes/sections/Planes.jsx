@@ -25,14 +25,14 @@ const Planes = () => {
       titulo: "Para mí",
       descripcion:
         "Cotiza tu seguro de salud y agrega familiares si así lo deseas.",
-      icono: "../../../public/assets/IcProtectionLight.png",
+      icono: "./assets/IcProtectionLight.png",
     },
     {
       id: "para-alguien-mas",
       titulo: "Para alguien más",
       descripcion:
         "Realiza una cotización para uno de tus familiares o cualquier persona.",
-      icono: "../../../public/assets/IcAddUserLight.png",
+      icono: "./assets/IcAddUserLight.png",
     },
   ];
 
@@ -163,10 +163,7 @@ const Planes = () => {
                             ${formatearPrecio(plan.price)} al mes
                           </p>
                         </div>
-                        <img
-                          src="../../../../public/assets/IcHospitalLight.png"
-                          alt=""
-                        />
+                        <img src="./assets/IcHospitalLight.png" alt="" />
                       </div>
 
                       <ul className="space-y-3">
@@ -180,7 +177,7 @@ const Planes = () => {
 
                       <button
                         onClick={() => manejarSeleccionPlan(plan)}
-                        className="w-full mt-6 bg-[#FF1C44] text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200"
+                        className="cursor-pointer w-full mt-6 bg-[#FF1C44] text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200"
                       >
                         Seleccionar Plan
                       </button>

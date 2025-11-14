@@ -44,7 +44,7 @@ const Resumen = () => {
             </h2>
             {user && (
               <div className="flex items-center gap-3">
-                <img src="../../../public/assets/gl_family-24x24.png" alt="" />
+                <img src="../../assets/gl_family-24x24.png" alt="" />
                 <div>
                   <p className="font-bold text-xl text-gray-800">
                     {user.name} {user.lastName}

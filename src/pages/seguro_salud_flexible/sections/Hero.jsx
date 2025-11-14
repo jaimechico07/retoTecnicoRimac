@@ -123,21 +123,16 @@ const Hero = () => {
     <div className="py-8 grid md:grid-cols-2 md:place-content-center md:place-items-start w-fit gap-16 m-auto md:h-[calc(100vh-20vh)] mb-20 xl:mb-0">
       <img
         className="rounded-3xl md:block hidden max-h-screen w-auto object-cover"
-        src="../../../../public/assets/image_220.png"
+        src="./assets/image_220.png"
         alt=""
       />
       <div className="flex flex-col justify-center gap-4 md:max-w-[352px]">
         <div className="py-4 md:py-0 border-b border-gray-300 md:border-0 ">
           <div className="grid grid-cols-2  items-center ">
             <figure className="col-start-2 col-end-3 row-start-1 row-end-2 place-items-end ">
-              <source
-                srcSet="../../../../public/assets/image_220.png"
-                type="image/web"
-                media="(max-width:768px)"
-              />
               <img
                 className="rounded-3xl max-w-[136px] md:hidden block"
-                src="../../../../public/assets/image_220.png"
+                src="./assets/image_220.png"
                 alt=""
               />
             </figure>

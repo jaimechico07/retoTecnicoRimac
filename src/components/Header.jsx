@@ -8,7 +8,7 @@ const Header = () => {
           <figure>
             <img
               className="w-[73px] h-9"
-              src="../../public/assets/Logo.png"
+              src="../assets/Logo.png"
               alt="logo rimac"
             />
           </figure>
