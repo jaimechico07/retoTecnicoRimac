@@ -10,12 +10,12 @@ const seguro_salud_flexible = () => {
         <main className="container m-auto px-6 md:px-0">
           <Hero />
           <img
-            src="../../../public/assets/blur-asset.png"
+            src="./assets/blur-asset.png"
             className="absolute left-0  bottom-0 -z-10 h-[500px] md:h-full max-h-screen w-auto object-cover"
             alt=""
           />
           <img
-            src="../../../public/assets/blur-asset (1).png"
+            src="./assets/blur-asset (1).png"
             className="absolute right-0 top-0 -z-10 md:h-full h-[500px] max-h-screen w-auto object-cover"
             alt=""
           />

@@ -93,14 +93,14 @@ const Hero = () => {
 
       if (resultado.success) {
         navigate("/plans");
-        console.log({
-          tipoDocumento,
-          numeroDocumento,
-          celular,
-          privacyAccepted,
-          commsAccepted,
-          user: resultado.user,
-        });
+        // console.log({
+        //   tipoDocumento,
+        //   numeroDocumento,
+        //   celular,
+        //   privacyAccepted,
+        //   commsAccepted,
+        //   user: resultado.user,
+        // });
       } else {
         // Error del servidor/API
         setErrores((prev) => ({
