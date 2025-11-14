@@ -119,6 +119,10 @@ const Hero = () => {
     }
   };
 
+  // Verificar si el botón debe estar deshabilitado
+  // const isFormValid =
+  //   numeroDocumento && celular && privacyAccepted && commsAccepted;
+
   return (
     <div className="py-8 grid md:grid-cols-2 md:place-content-center md:place-items-start w-fit gap-16 m-auto md:h-[calc(100vh-20vh)] mb-20 xl:mb-0">
       <img
@@ -262,8 +266,9 @@ const Hero = () => {
           {/* Submit Button */}
           <button
             type="submit"
+            // disabled={cargando || !isFormValid}
             disabled={cargando}
-            className="bg-black text-xl text-white py-5 px-10 rounded-[40px] cursor-pointer w-full md:w-auto font-bold disabled:opacity-50 disabled:cursor-not-allowed"
+            className="bg-black text-xl text-white border-2 duration-300 hover:bg-white hover:text-black py-5 px-10 rounded-[40px] cursor-pointer w-full md:w-auto font-bold disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {cargando ? "Validando..." : "Cotiza aquí"}
           </button>

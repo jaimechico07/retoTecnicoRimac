@@ -177,7 +177,7 @@ const Planes = () => {
 
                       <button
                         onClick={() => manejarSeleccionPlan(plan)}
-                        className="cursor-pointer w-full mt-6 bg-[#FF1C44] text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200"
+                        className="cursor-pointer w-full mt-6 bg-[#FF1C44] hover:text-[#FF1C44] hover:bg-white duration-300 border-2 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200"
                       >
                         Seleccionar Plan
                       </button>
